@@ -1,0 +1,294 @@
+.sidebar {
+    background: #050807;
+    height: 100%;
+    margin-right: auto;
+    position: absolute;
+    position: fixed;
+    transition: all .4s ease;
+    overflow: hidden;
+    width: 104px;
+    z-index: 11;
+}
+
+.header-sidebar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 59px 33px 0 33px;
+    margin-bottom: 249px;
+}
+
+.sidebar__control {}
+
+.sidebar__content {}
+
+.sidebar__burger {
+    background: #050807;
+    transition: all .4s;
+}
+
+.sidebar__burger img {
+    width: 100%;
+}
+
+.sidebar__nav {
+    padding-left: 33px;
+}
+
+.sidebar__nav-item {
+    color: var(--accent-color);
+    font-family: 'Gotham Pro';
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 55px;
+}
+
+.sidebar__nav-link {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    cursor: pointer;
+}
+
+.sidebar__nav-text {}
+
+.sidebar__nav-item:nth-child(4) {
+    margin-bottom: 52px;
+}
+
+.sidebar__nav-item:last-child {
+    margin-bottom: 0;
+}
+
+.collapsible {
+    width: 331px;
+}
+
+.collapsible .sidebar__burger path {
+    fill: #83DEB8;
+}
+
+.sidebar__nav-text {
+    opacity: 0;
+    visibility: hidden;
+    min-width: 272px;
+    transition: all .4s;
+}
+
+.collapsible .sidebar__nav-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+.main-account,
+.header-account {
+    padding-left: 166px;
+}
+
+.header-account {
+    margin-bottom: 96px;
+    padding-top: 35px;
+    padding-right: 28px;
+}
+
+.header-account__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.account-avatar {
+    border-radius: 12px;
+    width: 64px;
+    height: 64px;
+    background: #c4c4c4;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.account-avatar__img {
+    position: absolute;
+}
+
+.content {
+    color: var(--accent-color);
+}
+
+.content__cards {
+    display: flex;
+    gap: 34px;
+    justify-content: space-between;
+    margin-bottom: 57px;
+}
+
+.content__card {
+    width: 100%;
+    border-radius: 31px;
+    max-width: 398px;
+    height: 334px;
+    background: #c4c4c4;
+    padding: 6px 7px 13px 8px;
+    position: relative;
+}
+
+.widget {
+    height: 108px;
+    border-radius: 31px;
+    background: #b5b5b5;
+    display: flex;
+    align-items: center;
+    padding: 15px 12px 15px 15px;
+}
+
+.content__widget:first-child {
+    margin-bottom: 7px;
+}
+
+.content__widget-block {
+    border-radius: 15px;
+    width: 85px;
+    height: 80px;
+    background: #9d9d9d;
+    margin-right: 17px;
+}
+
+
+.content__widget-menu {
+    max-width: 32px;
+    margin-left: auto;
+}
+
+.content__widget-menu img {
+    width: 100%;
+}
+
+.content__widget-title {
+    margin-bottom: 3px;
+}
+
+.content__widget-title,
+.content__stocks-title {
+    font-size: 20px;
+    line-height: 1.17;
+}
+
+.content__widget-text {
+    line-height: 1.17;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.content__stocks {
+    margin-left: 15px;
+    margin-top: 11px;
+    display: flex;
+    align-items: center;
+}
+
+.widget-big__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.widget-big {
+    position: absolute;
+    border-radius: 31px;
+    height: 223px;
+    background: #b5b5b5;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 18px 22px 24px 28px;
+    margin-bottom: 17px;
+}
+
+.widget-big__block {
+    border-radius: 15px;
+    width: 84px;
+    height: 79px;
+    background: #9d9d9d;
+}
+
+.widget-big__subtitle,
+.card-inJob__suntitle {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.17;
+}
+
+.subtitle {
+    margin-bottom: 4px;
+}
+
+.widget-big__number {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.17;
+}
+
+.card-inJob {
+    position: absolute;
+    bottom: 33px;
+    left: 28px;
+}
+
+.subtitle-bottom {
+    margin-bottom: 10px;
+}
+
+.card-inJob__subtitle {
+    margin-bottom: 3px;
+}
+
+.card-inJob-number {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.17;
+}
+
+.content__card:last-child {
+    padding: 18px 15px 0;
+}
+
+.content__card-input {
+    width: 100%;
+    height: 100px;
+    background: #d3d3d3;
+    border-radius: 10px;
+}
+
+.content__card-input::placeholder {
+    padding-left: 20px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.17;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.content__card-input:focus {
+    padding-left: 20px;
+}
+
+.content__card-input:focus::placeholder {
+    padding-left: 0;
+}
+
+.content__histogram {
+    width: 100%;
+    height: 466px;
+    background: #efefef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content__histogram-img {
+    max-width: 162px;
+}
+
+.content__histogram-img img {
+    width: 100%;
+}
