@@ -1,0 +1,138 @@
+.header {
+    padding-top: 43px;
+    padding-bottom: 39px;
+}
+
+.header__top {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    margin-bottom: 35px;
+    position: relative;
+}
+
+.header__blur {
+    right: calc(100% + 174px);
+    position: absolute;
+    width: 413px;
+    height: 418px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #98c269 0%, #9edfb6 100%);
+    filter: blur(300px);
+}
+
+.header__left-content {
+    display: flex;
+    align-items: center;
+}
+
+.header__language {
+    display: flex;
+    align-items: center;
+    margin-left: 42px;
+
+}
+
+.header__language-img {
+    margin-right: 6px;
+    min-width: 10px;
+}
+
+.header__language-arrow {
+    margin-left: 3px;
+    max-height: 7px;
+}
+
+.header__language-arrow img {
+    width: 100%;
+}
+
+.header__navigation-list {
+    display: flex;
+    gap: 80px;
+}
+
+.header__navigation-item {
+    transition: all .4s;
+}
+
+.header__navigation-item:hover {
+    background: radial-gradient(3992.22% 112.45% at 8.04% 17.65%, rgb(231, 170, 25) 0%, rgb(203, 109, 156) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header__navigation-link {
+    display: flex;
+    gap: 2px;
+}
+
+.burger {
+    display: none;
+    margin-right: 17px;
+    z-index: 11;
+}
+
+.header__language-img {
+    margin-right: 16px;
+}
+
+.header__language-img img {
+    width: 100%;
+}
+
+.header__buttons {
+    display: flex;
+    gap: 20px;
+    width: 367px;
+    z-index: 11;
+}
+
+.header__login {
+    max-width: 113px;
+    width: 100%;
+    padding: 21px 5px 22px 5px;
+}
+
+.header__button {
+    width: 100%;
+    max-width: 234px;
+    padding: 25px 5px 24px 5px;
+}
+
+.header__bottom {
+    border-radius: 19px;
+    padding: 22px 0 20.8px 0;
+    background: linear-gradient(126deg, rgba(255, 255, 255, 0.32) 0%);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: var(--accent-color);
+    font-size: 18px;
+    line-height: 1.5;
+    justify-content: space-between;
+}
+
+.header__bottom-img {
+    margin-left: 9px;
+    margin-right: 10px;
+}
+
+.header__bottom-element {
+    display: flex;
+}
+
+.header__text-content {}
+
+.heder__text-bold {
+    font-weight: 500;
+}
+
+.header__bottom-time {
+    min-width: 230px;
+    font-size: 30px;
+    margin-right: 48px;
+}
