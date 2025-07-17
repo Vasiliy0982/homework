@@ -1,0 +1,97 @@
+:root {
+    --accent-color: #fff;
+}
+
+.body {
+    background-color: #0e0e12;
+    font-family: 'Gotham Pro', sans-serif;
+}
+
+.account-body {
+    position: relative;
+    background: linear-gradient(180deg, #101010 65.69%, #4d6b63 99.24%);
+    font-family: 'Gotham Pro', sans-serif;
+}
+
+.active {
+    position: relative;
+}
+
+.active::after {
+    content: '';
+    display: block;
+    position: absolute;
+    background: #000;
+    opacity: .4;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.body--opened-menu {
+    overflow: hidden;
+}
+
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 1625px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+.logo {
+    max-width: 161px;
+    min-width: 60px;
+    z-index: 11;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.button-border {
+    display: flex;
+    background: none;
+    border: 1px solid #FFB017;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    width: 100%;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.button {
+    box-shadow: inset 0 -4px 0 0 #8f4119, 0 3px 49px -3px rgba(226, 128, 72, 0.76);
+    background: linear-gradient(57deg, #dc6b30 0%, #e4864f 42.19%, #ffbe82 72.92%, #e49031 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-weight: 700;
+    border-radius: 20px;
+    width: 100%;
+    transition: all .4s;
+    cursor: pointer;
+}
+
+.button:hover {
+    transform: scale(1.05);
+}
+
+.button-border:hover {
+    transform: scale(1.05);
+}
